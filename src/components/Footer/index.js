@@ -2,10 +2,9 @@ import React from 'react';
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  FaTwitter
 } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 import {
   FooterContainer,
   FooterWrap,
@@ -13,7 +12,8 @@ import {
   SocialMediaWrap,
   SocialLogo,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  Address
 } from './FooterElements';
 
 const Footer = () => {
@@ -22,27 +22,25 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Pizza</SocialLogo>
+            <Link to='hero' spy={true} smooth={true}><SocialLogo >Italiano</SocialLogo></Link>
+            <Address style={{ textAlign: "center" }}>
+              <SocialLogo style={{ cursor: "default" }} >غزة - تقاطع شارع الوحدة مع شارع النصر</SocialLogo>
+              <SocialLogo style={{ cursor: "default" }} >2848823</SocialLogo>
+            </Address>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://www.facebook.com/italianogaza/?ref=page_internal' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/italianogaza/?fbclid=IwAR1mX-b_9-Jt9plua1Abf3VbrjzSv0-YEOIzxJify07eRO3NOw85csbHeaI' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
-                <FaYoutube />
-              </SocialIconLink>
               <SocialIconLink
-                href='//www.twitter.com/briandesignz'
+                href='https://twitter.com/Italian60053753'
                 target='_blank'
                 aria-label='Twitter'
                 rel='noopener noreferrer'
               >
                 <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

@@ -50,6 +50,12 @@ export const SocialIcons = styled.div`
   align-items: center;
   width: 240px;
 `;
+export const Address = styled.h3`
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+`
 
 export const SocialIconLink = styled.a`
   color: #fff;

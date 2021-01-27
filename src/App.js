@@ -11,10 +11,16 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Hero />
-      <Products heading='Choose your favorite' data={productData} />
+      <div id="hero">
+        <Hero />
+      </div>
+      <div id="meals">
+        <Products heading='وجبات ايطاليانو' data={productData} />
+      </div>
       <Feature />
-      <Products heading='Sweet Treats for You' data={productDataTwo} />
+      <div id="pizza">
+        <Products heading='بيتزا ايطاليانو' data={productDataTwo} />
+      </div>
       <Footer />
     </Router>
   );

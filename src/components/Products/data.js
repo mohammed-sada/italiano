@@ -1,66 +1,66 @@
 import product1 from '../../images/product-1.jpg';
 import product2 from '../../images/product-2.jpg';
 import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import pizza1 from '../../images/pizza-1.jpg';
+import pizza2 from '../../images/pizza-2.jpg';
+import pizza3 from '../../images/pizza-4.jpg';
 
 export const productData = [
   {
     img: product1,
     alt: 'Pizza',
-    name: 'Supreme Pizza',
+    name: 'تشيكن بيتزا',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'شرائح صدر دجاج المتبلة مع المشروم والزيتون والفلفل الرومي بالكريمة والجبنة ، تقدم مع البطاطس وصلصة إيطاليانو',
     price: '$19.99',
-    button: 'Add to Cart'
+
   },
   {
     img: product2,
     alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    name: 'فطيرة كلازوني',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'فطيرة بشرائح صدر الدجاج كع الزيتون وجبنة الموزيريلا ،تقدم مع البطاطس المقرمشة وصلصة إيطاليانو المميزة',
     price: '$16.99',
-    button: 'Add to Cart'
+
   },
   {
     img: product3,
     alt: 'Pizza',
-    name: 'Veggie Overload',
+    name: 'باستا – فيتوتشيني الفريدو ',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'معكرونة فيتوتشيني بالدجاج والمشروم والكريمة مع الجبنة مشوية في الفرن الإيطالي تقدم مع الخبز العربي الطازج',
     price: '$14.99',
-    button: 'Add to Cart'
+
   }
 ];
 
 export const productDataTwo = [
   {
-    img: sweet2,
+    img: pizza2,
     alt: 'Donuts',
-    name: 'Doughlicious',
+    name: 'بيتزا بالخضار ',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+      'صلصة طماطم ،جبنة ،فلفل رومي، مشروم، زيتون',
     price: '$9.99',
-    button: 'Add to Cart'
+
   },
   {
-    img: sweet3,
+    img: pizza3,
     alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    name: 'بيتزا مارجريتا ',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
+      'صلصلة طماطم بالجبنة ',
     price: '$12.99',
-    button: 'Add to Cart'
+
   },
   {
-    img: sweet1,
+    img: pizza1,
     alt: 'Brownie',
-    name: 'Brownie Bunch',
+    name: 'بيتزا مكسيكية ',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+      'صلصة طماطم ،جبنة ،دجاج ،زيتون ،فلفل حار',
     price: '$9.99',
-    button: 'Add to Cart'
+
   }
 ];

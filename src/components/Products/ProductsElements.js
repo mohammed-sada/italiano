@@ -6,6 +6,9 @@ export const ProductsContainer = styled.div`
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #150f0f;
   color: #fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 `;
 
 export const ProductWrapper = styled.div`
@@ -53,17 +56,20 @@ export const ProductDesc = styled.p`
 `;
 
 export const ProductPrice = styled.p`
-  margin-bottom: 1rem;
+  position:absolute;
+  margin-top:11rem;
   font-size: 2rem;
 `;
 
-export const ProductButton = styled.button`
+export const ProductButton = styled.a`
   font-size: 1rem;
+  margin-top:1.5rem;
   padding: 1rem 4rem;
   border: none;
   background: #e31837;
   color: #fff;
   transition: 0.2 ease-out;
+  
 
   &:hover {
     background: #ffc500;
