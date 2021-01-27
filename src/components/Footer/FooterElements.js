@@ -42,6 +42,12 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+
+  &:hover {
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #e31837;
+  }
 `;
 
 export const SocialIcons = styled.div`
@@ -62,9 +68,8 @@ export const SocialIconLink = styled.a`
   font-size: 24px;
 
   &:hover {
-    background: #ffc500;
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #000;
+    color: #e31837;
   }
 `;
