@@ -39,7 +39,7 @@ export const ProductsHeading = styled.h1`
 
 export const ProductTitle = styled.h2`
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 `;
 
 export const ProductInfo = styled.div`

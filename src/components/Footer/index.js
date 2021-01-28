@@ -24,8 +24,8 @@ const Footer = () => {
           <SocialMediaWrap>
             <Link to='hero' spy={true} smooth={true}><SocialLogo >Italiano</SocialLogo></Link>
             <Address style={{ textAlign: "center" }}>
-              <SocialLogo style={{ cursor: "default" }} >غزة - تقاطع شارع الوحدة مع شارع النصر</SocialLogo>
-              <SocialLogo style={{ cursor: "default" }} >2848823</SocialLogo>
+              <SocialLogo style={{ cursor: "default", color: '#e31837' }} >غزة - تقاطع شارع الوحدة مع شارع النصر</SocialLogo>
+              <SocialLogo style={{ cursor: "default", color: '#e31837' }} >2848823</SocialLogo>
             </Address>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/italianogaza/?ref=page_internal' target='_blank' aria-label='Facebook'>
