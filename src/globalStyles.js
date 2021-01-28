@@ -5,7 +5,6 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'Yusei Magic', 'Rakkas',sans-serif;
-    
+    font-family: 'Yusei Magic', 'Cairo',sans-serif;
   }
 `;

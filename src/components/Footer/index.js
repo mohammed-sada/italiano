@@ -26,7 +26,7 @@ const Footer = () => {
             <Address style={{ textAlign: "center" }}>
               <SocialLogo style={{ cursor: "default", color: '#e31837' }} >غزة - تقاطع شارع الوحدة مع شارع النصر</SocialLogo>
               <SocialLogo style={{ cursor: "default" }} >2848823</SocialLogo>
-              <SocialLogo style={{ cursor: "default" }} > 2021 <span style={{ fontFamily: 'arial', margin: '5px' }}> &copy; </span> جميع الحقوق محفوظة لدى مطعم ايطاليانو </SocialLogo>
+              <SocialLogo style={{ cursor: "default" }} > 2021 جميع الحقوق محفوظة لدى مطعم ايطاليانو </SocialLogo>
 
             </Address>
             <SocialIcons>
