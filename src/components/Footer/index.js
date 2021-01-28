@@ -25,7 +25,9 @@ const Footer = () => {
             <Link to='hero' spy={true} smooth={true}><SocialLogo >Italiano</SocialLogo></Link>
             <Address style={{ textAlign: "center" }}>
               <SocialLogo style={{ cursor: "default", color: '#e31837' }} >غزة - تقاطع شارع الوحدة مع شارع النصر</SocialLogo>
-              <SocialLogo style={{ cursor: "default", color: '#e31837' }} >2848823</SocialLogo>
+              <SocialLogo style={{ cursor: "default" }} >2848823</SocialLogo>
+              <SocialLogo style={{ cursor: "default" }} > 2021 <span style={{ fontFamily: 'arial', margin: '5px' }}> &copy; </span> جميع الحقوق محفوظة لدى مطعم ايطاليانو </SocialLogo>
+
             </Address>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/italianogaza/?ref=page_internal' target='_blank' aria-label='Facebook'>
