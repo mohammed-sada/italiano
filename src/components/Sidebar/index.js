@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarLink style={{ textDecoration: 'none' }} href='https://italiano-order.netlify.app/'>Full Menu</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>اطلب الان</SidebarRoute>
+        <SidebarRoute href='https://italiano-order.netlify.app/'>اطلب الان</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );
