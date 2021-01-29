@@ -1,8 +1,9 @@
 import React from 'react';
+import { AiFillPhone } from 'react-icons/ai';
 import {
   FaFacebook,
   FaInstagram,
-  FaTwitter
+  FaTwitter,
 } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import {
@@ -25,8 +26,8 @@ const Footer = () => {
             <Link to='hero' spy={true} smooth={true}><SocialLogo >Italiano</SocialLogo></Link>
             <Address style={{ textAlign: "center" }}>
               <SocialLogo style={{ cursor: "default", color: '#e31837' }} >غزة - تقاطع شارع الوحدة مع شارع النصر</SocialLogo>
-              <SocialLogo style={{ cursor: "default" }} >2848823</SocialLogo>
-              <SocialLogo style={{ cursor: "default" }} > 2021 جميع الحقوق محفوظة لدى مطعم ايطاليانو </SocialLogo>
+              <SocialLogo style={{ cursor: "default" }} >2848823 <AiFillPhone style={{ margin: '0px 15px' }} /> 0597220110</SocialLogo>
+              <SocialLogo style={{ cursor: "default", fontSize: 14 }} >جميع الحقوق محفوظة لدى مطعم ايطاليانو 2021</SocialLogo>
 
             </Address>
             <SocialIcons>
